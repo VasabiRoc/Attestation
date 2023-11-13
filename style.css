@@ -1,0 +1,38 @@
+:root {
+    --bl-purple: #0E0578;
+    --purple: #2000E7;
+    --yellow: #F2BD00;
+    --pink: #F965FC;
+    --bg-b:#43BAFD;
+    --bg-g: #FFD696;
+    --d-g: #686565;
+}
+
+@font-face {
+    font-family: "Poppins-Bold";
+    src: url(/Fonts/Poppins/Poppins-Bold.ttf);
+    font-family: "Poppins-Regular";
+    src: url(/Fonts/Poppins/Poppins-Regular.ttf);
+    font-family: "Jost-Bold";
+    src: url(/Fonts/Jost/static/Jost-Bold.ttf);
+    font-family: "Jost-Regular";
+    src: url(/Fonts/Jost/static/Jost-Regular.ttf);
+}
+ 
+.logo {
+    color: var(--bl-purple);
+    font-family: Poppins-Bold;
+}
+
+.menu {
+    color: var(--d-g);
+    font-family: Poppins-Regular;
+}
+
+.purple {
+    color: var(--purple);
+}
+
+.pink {
+    color: var(--pink);
+}
