@@ -1,38 +1,164 @@
-:root {
-    --bl-purple: #0E0578;
-    --purple: #2000E7;
-    --yellow: #F2BD00;
-    --pink: #F965FC;
-    --bg-b:#43BAFD;
-    --bg-g: #FFD696;
-    --d-g: #686565;
+@font-face {
+    font-family: 'Poppins';
+    font-weight: 700;
+    src: url(/Fonts/Poppins/Poppins-Bold.ttf);
+}
+@font-face {
+    font-family: 'Poppins';
+    font-weight: 400;
+    src: url(/Fonts/Poppins/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: 'Jost';
+    font-weight: 700;
+    src: url(/Fonts/Jost/static/Jost-Bold.ttf);
 }
 
 @font-face {
-    font-family: "Poppins-Bold";
-    src: url(/Fonts/Poppins/Poppins-Bold.ttf);
-    font-family: "Poppins-Regular";
-    src: url(/Fonts/Poppins/Poppins-Regular.ttf);
-    font-family: "Jost-Bold";
-    src: url(/Fonts/Jost/static/Jost-Bold.ttf);
-    font-family: "Jost-Regular";
+    font-family: 'Jost';
+    font-weight: 400;
     src: url(/Fonts/Jost/static/Jost-Regular.ttf);
 }
- 
-.logo {
-    color: var(--bl-purple);
-    font-family: Poppins-Bold;
+
+.link {
+    text-decoration: none;
+    font-family: Poppins;
+    color: #686565;
 }
 
-.menu {
-    color: var(--d-g);
-    font-family: Poppins-Regular;
+html * {
+    font-family: Poppins, sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.header {
+    width: 100%;
+    height: 100%;
+}
+
+.logo {
+    position: absolute;
+    top: 45px;
+    left: 78px;
+    font-weight: 700;
+    font-size: 48px;
+    color: #0E0578;
+}
+
+.navigation{
+    margin-right: 100px;
+    margin-left: 500px;
+}
+
+.navigation > a {
+    display: inline-block;
+    vertical-align: right;
+    width: 143px;
+    font-size: 30px;
+    line-height: 45px;
+    margin-top: 59px;
+    margin-left: 150px;
+}
+
+.photo {
+    float: right;
+    margin-right: 50px;
+}
+
+.begin {
+    margin-left: 78px;
+    margin-top: 300px;
+    margin-bottom: 400px;
+}
+
+.about {
+    margin-top: 600px;
 }
 
 .purple {
-    color: var(--purple);
+    color: #2000E7;
 }
 
-.pink {
-    color: var(--pink);
+.yellow {
+    color: #F2BD00;    
+    font-weight: 700;
+    font-size: 48px;
+}
+
+.btn-purple {
+    font-size: 24px;
+    border-radius: 10px;
+    width: 246px;
+    height: 72px;
+    color: white;
+    background-color: #2000E7;
+    margin-top: 20px;
+}
+
+.btn-projects {
+    font-size: 24px;
+    border-radius: 10px;
+    width: 246px;
+    height: 72px;
+    margin-left: 50px;
+    border-color: #2000E7;
+    color: #2000E7;
+    margin-top: 20px;
+    background-color: #2000E7 4%;
+}
+
+
+.boldP  {
+    font-weight: 700;
+    font-size: 48px;
+}
+
+
+.section-about h3 {
+    margin-left: 48px;
+    margin-top: 200px;
+    margin-bottom: 0;
+    display: inline-block;
+    font-weight: 700;
+    font-size: 48px;
+    width: 352px;
+    letter-spacing: 0.3em
+}
+.section-about {
+    position: relative;
+    margin-top: 200px;
+    height: 910px;
+}
+
+.section-about div {
+    display: block;
+    position: absolute;
+    background-color: #43BAFD;
+    width: 100%;
+    height: 100%;
+    opacity: 0.06;
+}
+
+.section-about p {
+    margin-left: 48px;
+    word-wrap: break-word;
+    width: 600px;
+}
+
+.bg-about {
+    float: right;
+    width: 925px;
+    height: 925px;
+    position: relative;
+    top: -670px;
+}
+
+.section-about button {
+    margin-left: 48px;
+}
+
+
+.projects {
+    margin-top: 1000px;
 }
