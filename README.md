@@ -1,1 +1,1 @@
-# Attestation Vasbtdinov for Hexlet
+# Project for attestation
