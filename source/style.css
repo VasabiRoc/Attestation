@@ -85,7 +85,7 @@ html * {
 }
 
 .begin p:last-of-type {
-    max-width: 790px;
+  max-width: 790px;
 }
 
 .begin h2 {
@@ -389,7 +389,6 @@ footer h1 a {
   color: #0e0578;
 }
 
-
 footer input {
   font-family: Jost;
   position: relative;
@@ -405,11 +404,11 @@ footer input {
   color: #ffffff;
 }
 
-footer input[type=email] {
+footer input[type="email"] {
   padding-left: 28px;
 }
 
-footer input::placeholder{
+footer input::placeholder {
   font-weight: 700;
   font-size: 31px;
   line-height: 44.8px;
