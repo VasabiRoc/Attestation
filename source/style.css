@@ -56,7 +56,6 @@ html * {
 
 .navigation > a {
   display: inline-block;
-  vertical-align: right;
   width: 143px;
   font-size: 30px;
   line-height: 45px;
@@ -120,6 +119,7 @@ html * {
 }
 
 .btn-projects {
+  position: relative;
   font-size: 24px;
   border-radius: 10px;
   border-color: #2000e7;
@@ -129,8 +129,13 @@ html * {
   margin-left: 50px;
   color: #2000e7;
   margin-top: 20px;
-  background-color: #2000e7 4%;
   box-shadow: 11px 21px 15px 6px rgba(0, 0, 0, 0.25);
+}
+
+.btn-projects::before {
+  position: absolute;
+  background-color: #2000e7;
+  opacity: 0.04;
 }
 
 .btn-projects a {
@@ -188,7 +193,7 @@ html * {
 }
 
 .projects {
-  height: 961;
+  height: 960px;
   width: 100%;
 }
 
@@ -272,7 +277,7 @@ html * {
 input {
   z-index: 1;
   display: inline;
-  width: 653px;
+  width: 700px;
   height: 94px;
   background-color: #ffffff;
   margin-bottom: 30px;
@@ -283,8 +288,8 @@ input {
 
 textarea {
   z-index: 1;
-  width: 653px;
-  height: 265pxx;
+  width: 700px;
+  height: 265px;
   resize: none;
   margin-bottom: 40px;
   box-shadow: 13px 21px 4px rgba(0, 0, 0, 0.25);
